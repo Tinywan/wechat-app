@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/index/video",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "red",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "Tinywan 小程序",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/icon_home.png",
+        "selectedIconPath": "images/icon_home_hl.png"
+      },
+      {
+        "pagePath": "pages/index/video",
+        "text": "视频",
+        "iconPath": "images/icon_video.png",
+        "selectedIconPath": "images/icon_video_hl.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "设置",
+        "iconPath": "images/icon_set.png",
+        "selectedIconPath": "images/icon_set_hl.png"
+      }
+    ]
+  }
+}
