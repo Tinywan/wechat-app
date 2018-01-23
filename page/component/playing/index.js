@@ -1,4 +1,4 @@
-// pages/index/view.js
+// page/component/playing/index.js
 Page({
 
   /**

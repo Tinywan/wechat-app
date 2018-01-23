@@ -1,35 +1,49 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/index/video",
-    "pages/logs/logs"
+  "pages": [
+    "page/component/index",
+    "page/component/playlist/index",
+    "page/component/mv/index",
+    "page/component/playing/index",
+    "page/component/login/index",
+    "page/component/fm/index",
+    "page/component/toplist/index",
+    "page/component/recommend/index",
+    "page/component/search/index",
+    "page/component/album/index"
   ],
   "window": {
-    "backgroundTextStyle": "red",
-    "navigationBarBackgroundColor": "#000",
-    "navigationBarTitleText": "Tinywan 小程序",
-    "navigationBarTextStyle": "#fff"
+    "navigationBarTextStyle": "#fff",
+    "navigationBarTitleText": "Tinywan 工作室",
+    "navigationBarBackgroundColor": "#000000",
+    "backgroundColor": "#000000"
   },
   "tabBar": {
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "首页",
-        "iconPath": "images/icon_home.png",
-        "selectedIconPath": "images/icon_home_hl.png"
-      },
-      {
-        "pagePath": "pages/index/video",
-        "text": "视频",
-        "iconPath": "images/icon_video.png",
-        "selectedIconPath": "images/icon_video_hl.png"
-      },
-      {
-        "pagePath": "pages/logs/logs",
-        "text": "设置",
-        "iconPath": "images/icon_set.png",
-        "selectedIconPath": "images/icon_set_hl.png"
-      }
-    ]
-  }
+    "color": "#aaa",
+    "selectedColor": "#d33a31",
+    "borderStyle": "white",
+    "backgroundColor": "#f8f8f8",
+    "list": [{
+      "pagePath": "page/component/index",
+      "iconPath": "images/icon_home.png",
+      "selectedIconPath": "images/icon_home_hl.png",
+      "text":"音乐"
+    },{
+      "pagePath":"page/component/fm/index",
+      "iconPath": "images/icon_set.png",
+      "selectedIconPath": "images/icon_set_hl.png",
+      "text":"设置"
+    },{
+      "pagePath": "page/component/playing/index",
+      "iconPath": "images/icon_video.png",
+      "selectedIconPath": "images/icon_video_hl.png",
+      "text":"视频"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
 }
