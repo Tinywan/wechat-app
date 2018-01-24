@@ -77,7 +77,7 @@ App({
     })
   },
   seekmusic: function (type, cb, seek) {
-    console.log("type:",type)
+    console.log("type:", type)
     var that = this;
     var m = this.globalData.curplay;
     this.globalData.playtype = type;
