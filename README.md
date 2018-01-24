@@ -1,6 +1,4 @@
-# Tinywan Ğ¡³ÌĞò
-
-## Ğ§¹ûÍ¼
-
+# Tinywan å°ç¨‹åº
+## æ•ˆæœå›¾
 ![demo001](/images/demo002.png)
 
